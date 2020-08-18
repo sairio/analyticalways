@@ -45,7 +45,7 @@ namespace Business
             Console.WriteLine("Se ha descargado satisfactoriamente el archivo");
         }
 
-        private static void DownloadProgress(object sender, DownloadProgressChangedEventArgs e)
+        public void DownloadProgress(object sender, DownloadProgressChangedEventArgs e)
         {
             Console.WriteLine("{0}    Descargado {1} de {2} bytes. {3} % completado...",
                 (string)e.UserState,
@@ -54,7 +54,7 @@ namespace Business
                 e.ProgressPercentage);
         }
 
-        public static void DownloadFileComplete(object sender, AsyncCompletedEventArgs e)
+        public void DownloadFileComplete(object sender, AsyncCompletedEventArgs e)
         {
             if (e.Cancelled)
             {
