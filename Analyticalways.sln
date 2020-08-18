@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analyticalways", "Analyticalways\Analyticalways.csproj", "{13B93CAE-444C-4242-99C0-917768F39DB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{67CBDEA6-E687-4C4B-8096-E0F462DB1876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{B87588C6-5BB9-4EAF-9C21-C1A400D2251F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{13B93CAE-444C-4242-99C0-917768F39DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13B93CAE-444C-4242-99C0-917768F39DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13B93CAE-444C-4242-99C0-917768F39DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CBDEA6-E687-4C4B-8096-E0F462DB1876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CBDEA6-E687-4C4B-8096-E0F462DB1876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CBDEA6-E687-4C4B-8096-E0F462DB1876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CBDEA6-E687-4C4B-8096-E0F462DB1876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87588C6-5BB9-4EAF-9C21-C1A400D2251F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87588C6-5BB9-4EAF-9C21-C1A400D2251F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87588C6-5BB9-4EAF-9C21-C1A400D2251F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87588C6-5BB9-4EAF-9C21-C1A400D2251F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
